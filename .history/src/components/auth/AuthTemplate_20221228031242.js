@@ -6,7 +6,7 @@ const AuthTemplateBlock = styled.div`
   position: absolute;
   left: 0;
   top: 0;
-  bottom: 0;
+  bottom: 100px;
   right: 0;
   background: ${palette.gray[2]};
   display: flex;

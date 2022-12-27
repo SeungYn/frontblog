@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import palette from '../../lib/styles/palette';
 
 const AuthTemplateBlock = styled.div`
-  position: absolute;
+  position: absolut;
   left: 0;
   top: 0;
   bottom: 0;
@@ -27,7 +27,6 @@ const WhiteBox = styled.div`
   padding: 2rem;
   background: white;
   width: 360px;
-  border-radius: 2px;
 `;
 
 const AuthTemplate = ({ children }) => {

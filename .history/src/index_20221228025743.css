@@ -6,8 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   box-sizing: border-box;
-  height: 100%;
-  padding: 0;
+  min-height: 100%;
 }
 
 code {
@@ -21,6 +20,7 @@ html {
 
 #root {
   height: 100%;
+  background-color: balck;
 }
 
 a {

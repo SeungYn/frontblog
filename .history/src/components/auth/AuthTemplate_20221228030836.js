@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import palette from '../../lib/styles/palette';
 
 const AuthTemplateBlock = styled.div`
-  position: absolute;
+  position: absolut;
   left: 0;
   top: 0;
   bottom: 0;
@@ -13,6 +13,7 @@ const AuthTemplateBlock = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 1000px;
 `;
 
 const WhiteBox = styled.div`
