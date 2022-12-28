@@ -12,24 +12,11 @@ export const changeField = createAction(
   })
 );
 
-export const initializeForm = createAction(INITIALIZE_FORM, (from) => from);
-
-const initialState = {
-  register: {
-    username: '',
-    password: '',
-    passwordConfirm: '',
-  },
-  login: {
-    username: '',
-    password: '',
-  },
-};
+const initialState = {};
 
 const auth = handleActions(
   {
     [CHANGE_FIELD]: (state, action) => state,
-    [INITIALIZE_FORM]: (state, action) => state,
   },
   initialState
 );

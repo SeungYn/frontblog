@@ -12,8 +12,6 @@ export const changeField = createAction(
   })
 );
 
-export const initializeForm = createAction(INITIALIZE_FORM, (from) => from);
-
 const initialState = {
   register: {
     username: '',
@@ -29,7 +27,6 @@ const initialState = {
 const auth = handleActions(
   {
     [CHANGE_FIELD]: (state, action) => state,
-    [INITIALIZE_FORM]: (state, action) => state,
   },
   initialState
 );

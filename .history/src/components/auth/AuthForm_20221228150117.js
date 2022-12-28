@@ -62,13 +62,6 @@ const AuthForm = ({ type }) => {
           placeholder='비밀번호'
           autoComplete='password'
         />
-        {type === 'register' && (
-          <StyledInput
-            name='passwordConfirm'
-            type='password'
-            placeholder='비밀번호 확인'
-          />
-        )}
         <ButtonWithMarginTop cyan fullWidth>
           {text}
         </ButtonWithMarginTop>
@@ -79,6 +72,9 @@ const AuthForm = ({ type }) => {
         ) : (
           <Link to='/login'>로그인</Link>
         )}
+        <Link to={`${text === '로그인' ? '/register' : '/login'}`}>{`${
+          text === '로그인' ? '회원가입' : '로그인'
+        }`}</Link>
       </Footer>
     </AuthFormBlock>
   );

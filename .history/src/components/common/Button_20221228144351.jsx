@@ -29,9 +29,6 @@ const StyledButton = styled.button`
     props.cyan &&
     css`
       background: ${palette.cyan[5]};
-      &:hover {
-        background: ${palette.cyan[4]};
-      }
     `}
 `;
 
@@ -40,3 +37,4 @@ const Button = (props) => {
   return <StyledButton {...props} />;
 };
 export default Button;
+console.log(palette.gray[8]);

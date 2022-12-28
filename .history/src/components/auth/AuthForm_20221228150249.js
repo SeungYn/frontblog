@@ -63,11 +63,7 @@ const AuthForm = ({ type }) => {
           autoComplete='password'
         />
         {type === 'register' && (
-          <StyledInput
-            name='passwordConfirm'
-            type='password'
-            placeholder='비밀번호 확인'
-          />
+          <StyledInput name='passwordConfirm' type='password' />
         )}
         <ButtonWithMarginTop cyan fullWidth>
           {text}

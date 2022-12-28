@@ -40,3 +40,4 @@ const Button = (props) => {
   return <StyledButton {...props} />;
 };
 export default Button;
+console.log(palette.gray[8]);
